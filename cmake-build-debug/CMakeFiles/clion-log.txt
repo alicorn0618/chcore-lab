@@ -1,0 +1,32 @@
+/snap/clion/138/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/os/Documents/chcore-lab
+-- The C compiler identification is unknown
+-- The ASM compiler identification is unknown
+-- Found assembler: aarch64-linux-gnu-gcc
+CMake Error at CMakeLists.txt:32 (project):
+  The CMAKE_C_COMPILER:
+
+    aarch64-linux-gnu-gcc
+
+  is not a full path and was not found in the PATH.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+  the compiler, or to the compiler name if it is in the PATH.
+
+
+CMake Error at CMakeLists.txt:32 (project):
+  The CMAKE_ASM_COMPILER:
+
+    aarch64-linux-gnu-gcc
+
+  is not a full path and was not found in the PATH.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "ASM" or the CMake cache entry CMAKE_ASM_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Warning: Did not find file Compiler/-ASM
+-- Configuring incomplete, errors occurred!
+See also "/home/os/Documents/chcore-lab/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/os/Documents/chcore-lab/cmake-build-debug/CMakeFiles/CMakeError.log".
